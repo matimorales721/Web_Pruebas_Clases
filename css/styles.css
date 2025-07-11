@@ -1,0 +1,35 @@
+body {  
+    background: linear-gradient(313deg,rgba(220, 47, 2, 1) 19%, rgba(112, 24, 2, 1) 72%);
+    font-family: 'Arial', sans-serif;
+    color: #9D0208;
+    padding: 20px;
+}
+
+.sector-principal {
+    background-color: #FFBA08;
+    border: 0pt;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sector-principal .titulo-principal{
+    text-align: center;
+    color: #6A040F;
+    text-decoration: underline;
+}
+
+.sector-cierre {
+    color: #FFBA08;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    background: #03071E;
+    font-family: 'Arial', sans-serif;
+    color: #FFBA08;
+    padding: 20px;
+    border-radius: 10px;
+}

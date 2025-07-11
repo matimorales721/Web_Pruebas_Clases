@@ -1,0 +1,169 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff9f2;
+    color: #333;
+}   
+
+header {
+    background-color: #f9c46b;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 2em;
+}
+
+img {
+    /* width: 100%; */
+    border-radius: 8px;
+    width: -webkit-fill-available;
+}
+
+h2 {
+    color: #b56b1d;
+    margin-top: 1.5em;
+}
+
+ul,
+ol {
+    padding-left: 1.2em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Mias */
+.paneles h3 {
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #f9c46b;
+    background-color: #fadfb6;
+    color: #d14d12;
+}
+
+.panel-imagen-titulo {
+    text-align: center;
+}
+
+.panel-imagen-titulo img {
+    max-width: 350px;
+    margin: 30px;
+    border: 1px solid brown;
+    width: -webkit-fill-available;
+}
+.panel-salado {
+    padding: 5px 15px 15px 15px;
+    /* background-color: rgba(190, 103, 15, 0.15);
+    background-blend-mode: lighten; */
+    border-radius: 5px;
+}
+
+.panel-salado h3 {
+    border-color: #f9c46b;
+    background-color: #fadfb6;
+    color: #d14d12;
+}
+
+.panel-dulce {
+    padding: 5px;
+    /* background-color: rgba(228, 55, 107, 0.15);
+    background-blend-mode: lighten; */
+    border-radius: 5px;
+}
+
+.panel-dulce h3 {
+    border-color: #682d42;
+    background-color: #804d6f;
+    color: white;
+}
+
+.volver-tab {
+    position: fixed;
+    top: 20px;
+    left: -30px; /* Oculto parcialmente */
+    background-color: #866a3a;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9em;
+    transition: left 0.3s ease, background-color 0.3s;
+    z-index: 999;
+}
+
+.volver-tab:hover {
+    left: 0; /* Se muestra completo al pasar el mouse */
+    background-color: #4a3b20;
+}
+
+
+/* items de listado de Recetas */
+.lista-recetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+  padding: 2em;
+}
+
+.receta {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  /* width: 250px; */
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.receta:hover {
+  transform: scale(1.03);
+}
+
+.receta img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.receta h3 {
+  margin: 0.7em 0 0.3em;
+  font-size: 1.1em;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0em 0 0.4em;
+  padding: 8px 16px;
+  background-color: #cc584c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #a03d35;
+}
